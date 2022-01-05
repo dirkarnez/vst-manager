@@ -34,7 +34,7 @@ func main() {
 	_, err = io.Copy(outFile, readCloser)
 
 	if err != nil {
-		fmt.Printf("base64 decode failure, error=[%v]\n", err)
+		fmt.Printf("error=[%v]\n", err)
 	} else {
 		fmt.Printf("done")
 	}
