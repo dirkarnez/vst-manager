@@ -1,4 +1,6 @@
 vst-manager
 ===========
 ### TODOs
-- [ ] download location
+- [ ] Portable: download location, clear seperation of 32 / 64 plugins
+- [ ] integrity check
+- [ ] upgrade / downgrade support
